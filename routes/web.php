@@ -11,6 +11,18 @@
 |
 */
 
+/***** View *****/
+
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/sign_up', function () {
+    return view('/sign_up/sign_up');
+});
+/*#### View End ####*/
+
+/***** Post *****/
+
+Route::post('/register','Controller@register');
+/*#### Post End ####*/
