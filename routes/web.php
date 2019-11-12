@@ -24,5 +24,7 @@ Route::get('/sign_up', function () {
 
 /***** Post *****/
 
-Route::post('/register','Controller@register');
+// Route::post('/register','Controller@Register_controller');
+Route::resource('/register','Register_controller');
+// Route::post('/register','Register_controller@store');
 /*#### Post End ####*/
