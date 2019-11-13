@@ -20,6 +20,10 @@ Route::get('/', function () {
 Route::get('/sign_up', function () {
     return view('/sign_up/sign_up');
 });
+
+Route::get('/sign_in', function () {
+    return view('/sign_in/sign_in');
+});
 /*#### View End ####*/
 
 /***** Post *****/
