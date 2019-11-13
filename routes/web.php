@@ -14,7 +14,7 @@
 /***** View *****/
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('/Home/home');
 });
 
 Route::get('/sign_up', function () {
