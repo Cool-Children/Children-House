@@ -3467,7 +3467,7 @@ input[type="button"].btn-block {
 .navbar-nav {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
+  display:flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
@@ -8229,13 +8229,13 @@ h1, h2, h3, h4, h5,
       font-size: 20px; }
 
 .ftco-navbar-light {
-  background: transparent !important;
-  z-index: 3;
+  /* background: transparent !important; */
+  /* z-index: 3; */
   padding: 0; }
   .ftco-navbar-light .container {
     background: #0d1128;
     width: 1110px; }
-  @media (max-width: 991.98px) {
+  @media (max-width: 1591.98px) {
     .ftco-navbar-light {
       background: #0d1128 !important;
       position: relative;
@@ -8252,10 +8252,10 @@ h1, h2, h3, h4, h5,
     .ftco-navbar-light .navbar-nav {
       padding-bottom: 10px; } }
   .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
-    font-size: 14px;
+    font-size: 20px;
     padding-top: 1.4rem;
     padding-bottom: 1.4rem;
-    padding-left: 20px;
+    padding-left: 25px;
     padding-right: 20px;
     font-weight: 400;
     color: #fff;

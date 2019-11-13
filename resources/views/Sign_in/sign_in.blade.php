@@ -78,7 +78,7 @@
                         <li class="nav-item"><a href="courses.html" class="nav-link">Courses</a></li>
                         <li class="nav-item"><a href="teacher.html" class="nav-link">Staff</a></li>
                         <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
-                      <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                        <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
                     </ul>
                   </div>
                 </div>
@@ -92,19 +92,20 @@
     			<div class="col-md-6 py-5 px-md-5">
     				<div class="py-md-5">
 		          <div class="heading-section heading-section-white ftco-animate mb-5">
-		            <h2 class="mb-4">Request A Quote</h2>
+		            <h2 class="mb-4">Log In Here</h2>
 		            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
 		          </div>
 		          <form action="#" class="appointment-form ftco-animate">
 		    				<div class="d-md-flex">
 			    				<div class="form-group">
-			    					<input type="text" class="form-control" placeholder="First Name">
-			    				</div>
+			    					<input type="text" class="form-control" name="email" placeholder="Email">
+                                </div>
+
 			    				<div class="form-group ml-md-4">
-			    					<input type="text" class="form-control" placeholder="Last Name">
+			    					<input type="password" class="form-control" name="password" placeholder="Password">
 			    				</div>
 		    				</div>
-		    				<div class="d-md-flex">
+		    				{{-- <div class="d-md-flex">
 		    					<div class="form-group">
 			    					<div class="form-field">
 		        					<div class="select-wrap">
@@ -127,9 +128,9 @@
 		    				<div class="d-md-flex">
 		    					<div class="form-group">
 			              <textarea name="" id="" cols="30" rows="2" class="form-control" placeholder="Message"></textarea>
-			            </div>
+			            </div> --}}
 			            <div class="form-group ml-md-4">
-			              <input type="submit" value="Request A Quote" class="btn btn-primary py-3 px-4">
+			              <input type="submit" value="Log In" class="btn btn-primary py-3 px-4">
 			            </div>
 		    				</div>
 		    			</form>

@@ -46,6 +46,67 @@
 
 </head>
 <body>
+
+        <div class="bg-top navbar-light">
+                <div class="container">
+                    <div class="row no-gutters d-flex align-items-center align-items-stretch">
+                        <div class="col-md-4 d-flex align-items-center py-4">
+                            <a class="navbar-brand" href="index.html">Children's <span>House</span></a>
+                        </div>
+                        <div class="col-lg-8 d-block">
+                            <div class="row d-flex">
+                                <div class="col-md d-flex topper align-items-center align-items-stretch py-md-4">
+                                    <div class="icon d-flex justify-content-center align-items-center"><span class="icon-paper-plane"></span></div>
+                                    <div class="text">
+                                        <span>Email</span>
+                                        <span>children'shouse@email.com</span>
+                                    </div>
+                                </div>
+                                <div class="col-md d-flex topper align-items-center align-items-stretch py-md-4">
+                                    <div class="icon d-flex justify-content-center align-items-center"><span class="icon-phone2"></span></div>
+                                    <div class="text">
+                                        <span>Call</span>
+                                        <span>Call Us: +94 1234567</span>
+                                    </div>
+                                </div>
+                                <div class="col-md topper d-flex align-items-center justify-content-end">
+                                    <p class="mb-0">
+                                        <a href="{{ URL::to('/sign_in') }}" class="btn py-2 px-3 btn-primary d-flex align-items-center justify-content-center">
+                                            <span>Sign In</span>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+            </div>
+              <nav class="navbar navbar-expand-lg navbar-dark bg-dark ftco-navbar-light" id="ftco-navbar">
+                <div class="container d-flex align-items-center px-4">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="oi oi-menu"></span> Menu
+                  </button>
+                  <form action="#" class="searchform order-lg-last">
+                  <div class="form-group d-flex">
+                    <input type="text" class="form-control pl-3" placeholder="Search">
+                    <button type="submit" placeholder="" class="form-control search"><span class="ion-ios-search"></span></button>
+                  </div>
+                </form>
+                  <div class="collapse navbar-collapse" id="ftco-nav">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item"><a href="{{ URL::to('/') }}" class="nav-link pl-0">Home</a></li>
+                        <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                        <li class="nav-item"><a href="courses.html" class="nav-link">Courses</a></li>
+                        <li class="nav-item"><a href="teacher.html" class="nav-link">Staff</a></li>
+                        <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
+                        <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+            <!-- END nav -->
+
+
     <section class="ftco-section ftco-consult ftco-no-pt ftco-no-pb" style="background-image: url(images/sign_in1.jpg);" data-stellar-background-ratio="0.5">
     	<div class="overlay"></div>
     	<div class="container">
@@ -53,19 +114,24 @@
     			<div class="col-md-6 py-5 px-md-5">
     				<div class="py-md-5">
 		          <div class="heading-section heading-section-white ftco-animate mb-5">
-		            <h2 class="mb-4">Request A Quote</h2>
+		            <h2 class="mb-4">Submit Your Informations Here</h2>
 		            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
 		          </div>
-		          <form action="#" class="appointment-form ftco-animate">
+                  <form action="{{URL::to('/register')}}" method="POST" class="appointment-form ftco-animate">
+
+                            {{ csrf_field() }}
 		    				<div class="d-md-flex">
 			    				<div class="form-group">
-			    					<input type="text" class="form-control" placeholder="First Name">
+			    					<input type="text" class="form-control" name="user_name" placeholder="User Name">
 			    				</div>
 			    				<div class="form-group ml-md-4">
-			    					<input type="text" class="form-control" placeholder="Last Name">
+			    					<input type="text" class="form-control" name="email" placeholder="Email">
+                                </div>
+                                <div class="form-group ml-md-4">
+			    					<input type="password" class="form-control" name="password" placeholder="Password">
 			    				</div>
 		    				</div>
-		    				<div class="d-md-flex">
+		    				{{-- <div class="d-md-flex">
 		    					<div class="form-group">
 			    					<div class="form-field">
 		        					<div class="select-wrap">
@@ -84,15 +150,15 @@
 		    					<div class="form-group ml-md-4">
 			    					<input type="text" class="form-control" placeholder="Phone">
 			    				</div>
-		    				</div>
-		    				<div class="d-md-flex">
-		    					<div class="form-group">
+		    				</div> --}}
+		    				{{-- <div class="d-md-flex"> --}}
+		    					{{-- <div class="form-group">
 			              <textarea name="" id="" cols="30" rows="2" class="form-control" placeholder="Message"></textarea>
-			            </div>
+			            </div> --}}
 			            <div class="form-group ml-md-4">
-			              <input type="submit" value="Request A Quote" class="btn btn-primary py-3 px-4">
+			              <input type="submit" value="Submit" class="btn btn-primary py-3 px-4">
 			            </div>
-		    				</div>
+		    				{{-- </div> --}}
 		    			</form>
 		    		</div>
     			</div>

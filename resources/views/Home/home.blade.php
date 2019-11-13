@@ -75,7 +75,8 @@
 	        	<li class="nav-item"><a href="courses.html" class="nav-link">Courses</a></li>
 	        	<li class="nav-item"><a href="teacher.html" class="nav-link">Staff</a></li>
 	        	<li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
-	          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                <li class="nav-item"><a href="{{ URL::to('/sign_up') }}" class="nav-link">Sign Up</a></li>
 	        </ul>
 	      </div>
 	    </div>
@@ -90,7 +91,7 @@
           <div class="col-md-6 ftco-animate">
             <h1 class="mb-4">We must protect children care fully</h1>
             <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-            <p><a href="#" class="btn btn-primary px-4 py-3 mt-3">Contact Us</a></p>
+            {{-- <a><a href="#" class="btn btn-primary px-4 py-3 mt-3">Contact Us</a></a> --}}
           </div>
         </div>
         </div>
@@ -103,7 +104,7 @@
           <div class="col-md-6 ftco-animate">
             <h1 class="mb-4">Children's are the future of wold</h1>
             <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-            <p><a href="#" class="btn btn-primary px-4 py-3 mt-3">Contact Us</a></p>
+            {{-- <a><a href="#" class="btn btn-primary px-4 py-3 mt-3">Contact Us</a></a> --}}
           </div>
         </div>
         </div>
