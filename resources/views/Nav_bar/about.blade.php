@@ -82,7 +82,7 @@
 	  </nav>
     <!-- END nav -->
 
-    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_1.jpg');">
+    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/home_slide_show2.jpg');">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text align-items-center justify-content-center">
@@ -101,17 +101,18 @@
 						<div class="img" style="background-image: url(images/about.jpg); border"></div>
 					</div>
 					<div class="col-md-7 wrap-about py-5 pr-md-4 ftco-animate">
-          	<h2 class="mb-4">Fox University Stablished Since 1960</h2>
-						<p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word.</p>
-						<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-						<p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country. But nothing the copy said could convince her and so it didn’t take long until a few insidious Copy Writers ambushed her, made her drunk with Longe and Parole and dragged her into their agency, where they abused her for their</p>
+              <h2 class="mb-4">Children's House</h2>
+                        <p>The Children’s House, also known as early childhood, is a community of children from three to six years who live and learn together in a prepared learning environment.  </p>
+						<p>This multi-aged grouping serves children who would otherwise be in conventional pre-school or kindergarten.</p>
+						<p>The Children’s House community provides children with the opportunity to develop through individual activities that aid the child’s work of “self construction.” The Montessori guide supports children as they learn how to sustain focused and concentrated attention, think clearly and constructively, resolve conflicts peacefully, and express themselves through language and the arts. </p>
+						<p>Through the active development of their will and the satisfaction of their authentic needs, the children become self-disciplined and socially cohesive during their three to four years in Children's House.</p>
 					</div>
 				</div>
 			</div>
 		</section>
 
 
-		<section class="ftco-section ftco-counter img" id="section-counter" style="background-image: url(images/bg_3.jpg);" data-stellar-background-ratio="0.5">
+		<section class="ftco-section ftco-counter img" id="section-counter" style="background-image: url('images/about2.jpg');" data-stellar-background-ratio="0.5">
     	<div class="container">
     		<div class="row justify-content-center mb-5 pb-2 d-flex">
     			<div class="col-md-6 align-items-stretch d-flex">
