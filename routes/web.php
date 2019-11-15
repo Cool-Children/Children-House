@@ -22,7 +22,11 @@ Route::get('/sign_up', function () {
 });
 
 Route::get('/sign_in', function () {
-    return view('/sign_in/sign_in');
+    return view('/Sign_in/sign_in');
+});
+
+Route::get('/about', function () {
+    return view('/Nav_bar/about');
 });
 /*#### View End ####*/
 
