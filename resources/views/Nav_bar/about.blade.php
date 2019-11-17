@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Fox University - Free Bootstrap 4 Template by Colorlib</title>
+    <title>About Children's house</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -98,7 +98,7 @@
 			<div class="container">
 				<div class="row d-flex">
 					<div class="col-md-5 order-md-last wrap-about wrap-about d-flex align-items-stretch">
-						<div class="img" style="background-image: url(images/about.jpg); border"></div>
+						<div class="img" style="background-image: url(images/about4.jpg); border"></div>
 					</div>
 					<div class="col-md-7 wrap-about py-5 pr-md-4 ftco-animate">
               <h2 class="mb-4">Children's House</h2>

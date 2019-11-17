@@ -28,6 +28,10 @@ Route::get('/sign_in', function () {
 Route::get('/about', function () {
     return view('/Nav_bar/about');
 });
+
+Route::get('/events', function () {
+    return view('/Nav_bar/events');
+});
 /*#### View End ####*/
 
 /***** Post *****/
