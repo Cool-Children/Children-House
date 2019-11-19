@@ -49,7 +49,7 @@ class Register_controller extends Controller
         ]);
 
         $register->save();
-        return redirect()->route('/sign_up')->with('success','Data Added');
+        // return redirect()->route('/sign_up')->with('success','Data Added');
     }
 
     /**
