@@ -32,6 +32,10 @@ Route::get('/about', function () {
 Route::get('/events', function () {
     return view('/Nav_bar/events');
 });
+
+Route::get('/blog', function () {
+    return view('/Blog/blog');
+});
 /*#### View End ####*/
 
 /***** Post *****/

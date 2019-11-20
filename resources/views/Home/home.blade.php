@@ -74,7 +74,7 @@
 	        	<li class="nav-item"><a href="{{ URL::to('/about') }}" class="nav-link">About</a></li>
 	        	<li class="nav-item"><a href="{{ URL::to('/events') }}" class="nav-link">Events</a></li>
 	        	<li class="nav-item"><a href="teacher.html" class="nav-link">Staff</a></li>
-	        	<li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
+	        	<li class="nav-item"><a href="{{ URL::to('/blog') }}" class="nav-link">Blog</a></li>
                 <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
                 <li class="nav-item"><a href="{{ URL::to('/sign_up') }}" class="nav-link">Sign Up</a></li>
 	        </ul>
