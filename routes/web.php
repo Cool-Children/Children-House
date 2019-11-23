@@ -31,10 +31,14 @@ Route::get('/blog', function () {
     return view('/Blog/blog');
 });
 
+// Auth::routes();
+
+// Route::get('/Normal_users/normal_users', 'HomeController@index')->name('normal_users');
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Auth::routes();
+// Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+// Route::get('/home', 'HomeController@index')->name('home');
