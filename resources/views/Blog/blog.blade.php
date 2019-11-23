@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Fox University - Free Bootstrap 4 Template by Colorlib</title>
+    <title>Children's House</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -27,7 +27,7 @@
     	<div class="container">
     		<div class="row no-gutters d-flex align-items-center align-items-stretch">
     			<div class="col-md-4 d-flex align-items-center py-4">
-    				<a class="navbar-brand" href="index.html">Fox. <span>University</span></a>
+    				<a class="navbar-brand" href="index.html">Children's <span>House</span></a>
     			</div>
 	    		<div class="col-lg-8 d-block">
 		    		<div class="row d-flex">
@@ -35,20 +35,20 @@
 					    	<div class="icon d-flex justify-content-center align-items-center"><span class="icon-paper-plane"></span></div>
 					    	<div class="text">
 					    		<span>Email</span>
-						    	<span>youremail@email.com</span>
+						    	<span>children'shouse@email.com</span>
 						    </div>
 					    </div>
 					    <div class="col-md d-flex topper align-items-center align-items-stretch py-md-4">
 					    	<div class="icon d-flex justify-content-center align-items-center"><span class="icon-phone2"></span></div>
 						    <div class="text">
 						    	<span>Call</span>
-						    	<span>Call Us: + 1235 2355 98</span>
+						    	<span>Call Us: +94 1234567</span>
 						    </div>
 					    </div>
 					    <div class="col-md topper d-flex align-items-center justify-content-end">
 					    	<p class="mb-0">
-					    		<a href="#" class="btn py-2 px-3 btn-primary d-flex align-items-center justify-content-center">
-					    			<span>Apply now</span>
+					    		<a href="{{ URL::to('/sign_in') }}" class="btn py-2 px-3 btn-primary d-flex align-items-center justify-content-center">
+					    			<span>Sign In</span>
 					    		</a>
 					    	</p>
 					    </div>
@@ -70,12 +70,13 @@
         </form>
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav mr-auto">
-	        	<li class="nav-item"><a href="index.html" class="nav-link pl-0">Home</a></li>
-	        	<li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-	        	<li class="nav-item"><a href="courses.html" class="nav-link">Courses</a></li>
+                <li class="nav-item"><a href="{{ URL::to('/') }}" class="nav-link pl-0">Home</a></li>
+	        	<li class="nav-item"><a href="{{ URL::to('/about') }}" class="nav-link">About</a></li>
+	        	<li class="nav-item"><a href="{{ URL::to('/events') }}" class="nav-link">Events</a></li>
 	        	<li class="nav-item"><a href="teacher.html" class="nav-link">Staff</a></li>
-	        	<li class="nav-item active"><a href="blog.html" class="nav-link">Blog</a></li>
-	          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+	        	<li class="nav-item active"><a href="{{ URL::to('/blog') }}" class="nav-link">Blog</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                <li class="nav-item"><a href="{{ route('register') }}" class="nav-link">Sign Up</a></li>
 	        </ul>
 	      </div>
 	    </div>
