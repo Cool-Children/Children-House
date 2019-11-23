@@ -47,7 +47,7 @@
 					    </div>
 					    <div class="col-md topper d-flex align-items-center justify-content-end">
 					    	<p class="mb-0">
-					    		<a href="{{ URL::to('/sign_in') }}" class="btn py-2 px-3 btn-primary d-flex align-items-center justify-content-center">
+					    		<a href="{{ route('login') }}" class="btn py-2 px-3 btn-primary d-flex align-items-center justify-content-center">
 					    			<span>Sign In</span>
 					    		</a>
 					    	</p>
@@ -70,7 +70,7 @@
         </form>
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav mr-auto">
-	        	<li class="nav-item active"><a href="index.html" class="nav-link pl-0">Home</a></li>
+	        	<li class="nav-item active"><a href="{{ URL::to('/') }}" class="nav-link pl-0">Home</a></li>
 	        	<li class="nav-item"><a href="{{ URL::to('/about') }}" class="nav-link">About</a></li>
 	        	<li class="nav-item"><a href="{{ URL::to('/events') }}" class="nav-link">Events</a></li>
 	        	<li class="nav-item"><a href="teacher.html" class="nav-link">Staff</a></li>

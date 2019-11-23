@@ -50,7 +50,7 @@
                         </div>
                         <div class="col-md topper d-flex align-items-center justify-content-end">
                             <p class="mb-0">
-                                <a href="{{ URL::to('/sign_in') }}" class="btn py-2 px-3 btn-primary d-flex align-items-center justify-content-center">
+                                <a href="{{ route('login') }}" class="btn py-2 px-3 btn-primary d-flex align-items-center justify-content-center">
                                     <span>Sign In</span>
                                 </a>
                             </p>
