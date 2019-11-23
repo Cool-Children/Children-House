@@ -12,7 +12,19 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('/Home/home');
+});
+
+Route::get('/about', function () {
+    return view('/Nav_bar/about');
+});
+
+Route::get('/events', function () {
+    return view('/Nav_bar/events');
+});
+
+Route::get('/blog', function () {
+    return view('/Blog/blog');
 });
 
 Auth::routes();
