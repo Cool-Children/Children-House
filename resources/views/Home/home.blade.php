@@ -102,7 +102,7 @@
         <div class="container">
           <div class="row no-gutters slider-text align-items-center justify-content-start" data-scrollax-parent="true">
           <div class="col-md-6 ftco-animate">
-            <h1 class="mb-4">Children's are the future of wold</h1>
+            <h1 class="mb-4">Children are the future of wold</h1>
             <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
             {{-- <a><a href="#" class="btn btn-primary px-4 py-3 mt-3">Contact Us</a></a> --}}
           </div>
@@ -112,8 +112,8 @@
     </section>
 
     <section class="ftco-services ftco-no-pb">
-			<div class="container-wrap">
-				<div class="row no-gutters">
+		<div class="container-wrap">
+			<div class="row no-gutters">
           <div class="col-md-3 d-flex services align-self-stretch py-5 px-4 ftco-animate bg-primary">
             <div class="media block-6 d-block text-center">
               <div class="icon d-flex justify-content-center align-items-center">
@@ -159,7 +159,7 @@
             </div>
           </div>
         </div>
-			</div>
+		</div>
 		</section>
 
 		<section class="ftco-section ftco-no-pt ftc-no-pb">
