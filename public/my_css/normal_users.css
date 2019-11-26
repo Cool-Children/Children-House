@@ -27,7 +27,8 @@
   a {
     text-decoration: none;
     font-size: 22px;
-    color: black;
+    /* color: black; */
+    color: aliceblue;
   }
 
   button:hover, a:hover {

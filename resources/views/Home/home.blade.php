@@ -73,7 +73,7 @@
 	        	<li class="nav-item active"><a href="{{ URL::to('/') }}" class="nav-link pl-0">Home</a></li>
 	        	<li class="nav-item"><a href="{{ URL::to('/about') }}" class="nav-link">About</a></li>
 	        	<li class="nav-item"><a href="{{ URL::to('/events') }}" class="nav-link">Events</a></li>
-	        	<li class="nav-item"><a href="teacher.html" class="nav-link">Staff</a></li>
+	        	<li class="nav-item"><a href="{{ URL::to('/staf') }}" class="nav-link">Staff</a></li>
 	        	<li class="nav-item"><a href="{{ URL::to('/blog') }}" class="nav-link">Blog</a></li>
                 <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
                 <li class="nav-item"><a href="{{ route('register') }}" class="nav-link">Sign Up</a></li>

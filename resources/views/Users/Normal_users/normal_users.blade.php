@@ -103,7 +103,7 @@
                         <li class="nav-item active"><a href="{{ URL::to('/') }}" class="nav-link pl-0">Home</a></li>
                         <li class="nav-item"><a href="{{ URL::to('/about') }}" class="nav-link">About</a></li>
                         <li class="nav-item"><a href="{{ URL::to('/events') }}" class="nav-link">Events</a></li>
-                        <li class="nav-item"><a href="teacher.html" class="nav-link">Staff</a></li>
+                        <li class="nav-item"><a href="{{ URL::to('/staf') }}" class="nav-link">Staff</a></li>
                         <li class="nav-item"><a href="{{ URL::to('/blog') }}" class="nav-link">Blog</a></li>
                         <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
                         <li class="nav-item"><a href="{{ route('logout') }}" class="nav-link" onclick="event.preventDefault();
@@ -180,7 +180,7 @@
 
         <div class="col-md-4">
             <div class="card">
-                        <img src="/w3images/team2.jpg" alt="John" style="width:100%">
+                        <img src="/w3images/team2.jpg" alt="{{ Auth::user()->name }}" style="width:100%">
                         <h1><a class="lable" href="#" role="button" aria-haspopup="true" aria-expanded="false" v-pre>
                                 {{ Auth::user()->name }} <span class="caret"></span>
                             </a>
@@ -193,7 +193,13 @@
                               <a href="#"><i class="fa fa-linkedin"></i></a>
                               <a href="#"><i class="fa fa-facebook"></i></a>
                             </div>
-                            <p><button>Contact</button></p>
+                            <p><button><a href="{{ route('logout') }}" class="nav-link" onclick="event.preventDefault();
+                                document.getElementById('logout-form').submit();">Sign Out</a>
+
+                                <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                    @csrf
+                                </form>
+                            </button></p>
             </div>
         </div>
 

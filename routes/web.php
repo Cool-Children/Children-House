@@ -31,6 +31,11 @@ Route::get('/blog', function () {
     return view('/Blog/blog');
 });
 
+Route::get('/staf', function () {
+    return view('/Nav_bar/staf');
+});
+
+
 // Auth::routes();
 
 // Route::get('/Normal_users/normal_users', 'HomeController@index')->name('normal_users');
